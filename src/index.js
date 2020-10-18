@@ -1,6 +1,11 @@
-import React from 'react'
-import styles from './styles.module.css'
+import {ReduxEz} from "./factory";
+import asyncDispatchMiddleware from "./middleware/asyncDispatchMiddleware";
+import {notifierReducer} from './Notifier/notifierSlice'
+import Notifier from './Notifier/Notifier'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export {
+  ReduxEz,
+  Notifier,
+  notifierReducer,
+  asyncDispatchMiddleware
 }
