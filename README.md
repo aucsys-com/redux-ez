@@ -11,19 +11,33 @@ npm install --save redux-ez
 ```
 
 ## Usage
+1. Create instance of ReduxEz
+    ```jsx
+    const ez = ReduxEz({
+        baseUrl: "https://example.com/api",
+        makeHeaders: async () => {return {'x-header': 'value'}}
+    })
+    ```
+1. Use exposed methods to create slice actions with desired functionality
+   ```jsx
+    const {
+        initialState: testInitialState,
+        thunk: getTest,
+        reducers: testReducers,
+        stateNames: getTestStateNames
+    } = getSliceActions({
+         actionName: "getTest",
+         storeName: TEST_STORE_NAME,
+         entityNameInStore: "test",
+         thunkName: "/test/get",
+         showToastOnSuccess: true,
+         showToastOnFail: true,
+         makePath: (payload) => { // Action payload
+             return `/test/${payload.id}`
+         }
+    })
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'redux-ez'
-import 'redux-ez/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
+   ```
 
 ## License
 

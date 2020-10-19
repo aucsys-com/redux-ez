@@ -1,10 +1,13 @@
 {
-  "name": "redux-ez",
-  "version": "1.0.0",
+  "name": "@aucsys/redux-ez",
+  "version": "0.1.0",
   "description": "Ez reducers for your basic CRUD needs",
   "author": "aucsys-com",
   "license": "MIT",
-  "repository": "aucsys-com/redux-ez",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aucsys-com/redux-ez.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -54,6 +57,12 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/aucsys-com/redux-ez/issues"
+  },
+  "homepage": "https://github.com/aucsys-com/redux-ez#readme",
+  "directories": {
+    "example": "example"
   }
 }
