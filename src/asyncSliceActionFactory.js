@@ -59,8 +59,7 @@ export function makeAsyncSliceActions({
             if (!loaderIndicator || thunkAPI.requestId !== currentRequestId) {
                 return;
             }
-            const res = await thunkAction(arg, thunkAPI)
-            console.log('res thunkAction', res)
+
             return await thunkAction(arg, thunkAPI);
         }
     );

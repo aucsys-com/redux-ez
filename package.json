@@ -1,6 +1,6 @@
 {
   "name": "@aucsys/redux-ez",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Ez reducers for your basic CRUD needs",
   "author": "aucsys-com",
   "license": "MIT",
