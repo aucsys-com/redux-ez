@@ -85,6 +85,8 @@ export function makeAsyncSliceActions({
 
                 if (onFulfilledFunc) {
                     onFulfilledFunc(state, action, stateNames)
+                } else {
+                  state[stateNames.entity] = action.payload
                 }
 
                 state[stateNames.actionCompleted] = true;

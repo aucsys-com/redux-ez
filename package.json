@@ -1,6 +1,6 @@
 {
   "name": "@aucsys/redux-ez",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Ez reducers for your basic CRUD needs",
   "author": "aucsys-com",
   "license": "MIT",
@@ -28,8 +28,8 @@
   },
   "peerDependencies": {
     "axios": "^0.20.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "react-redux": "^7.2.1",
     "react-scripts": "^3.4.1",
     "@reduxjs/toolkit": "^1.4.0",
@@ -50,14 +50,15 @@
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
     "microbundle-crl": "^0.13.10",
-    "notistack": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "notistack": "^1.0.1"
+  },
   "bugs": {
     "url": "https://github.com/aucsys-com/redux-ez/issues"
   },
