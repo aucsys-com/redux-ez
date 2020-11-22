@@ -1,6 +1,6 @@
 {
   "name": "@aucsys/redux-ez",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Ez reducers for your basic CRUD needs",
   "author": "aucsys-com",
   "license": "MIT",
@@ -57,7 +57,7 @@
     "dist"
   ],
   "dependencies": {
-    "notistack": "^1.0.1"
+    "react-toastify": "^6.1.0"
   },
   "bugs": {
     "url": "https://github.com/aucsys-com/redux-ez/issues"
