@@ -1,6 +1,6 @@
 {
   "name": "@aucsys/redux-ez",
-  "version": "0.1.5",
+  "version": "0.1.12",
   "description": "Ez reducers for your basic CRUD needs",
   "author": "aucsys-com",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "react-redux": "^7.2.1",
     "react-scripts": "^3.4.1",
     "@reduxjs/toolkit": "^1.4.0",
-    "@material-ui/core": "^4.11.0"
+    "@material-ui/core": "5.0.0-alpha.15"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
